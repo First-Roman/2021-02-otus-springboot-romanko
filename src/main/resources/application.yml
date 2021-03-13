@@ -1,0 +1,6 @@
+questionnaire:
+  file:
+   name: quest.csv
+  exam:
+   qualityGate: 0.5
+  local: Rus
