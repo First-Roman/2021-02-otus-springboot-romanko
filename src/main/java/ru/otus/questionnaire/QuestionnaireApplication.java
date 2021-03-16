@@ -10,7 +10,7 @@ public class QuestionnaireApplication {
 
     public static void main(String[] args) {
         ApplicationContext context = SpringApplication.run(QuestionnaireApplication.class, args);
-        Examination examination = context.getBean(Examination.class);
-        examination.startExamination();
+//        Examination examination = context.getBean(Examination.class);
+//        examination.startExamination();
     }
 }
