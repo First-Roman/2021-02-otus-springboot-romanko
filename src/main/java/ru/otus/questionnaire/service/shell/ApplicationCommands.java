@@ -21,8 +21,8 @@ public class ApplicationCommands {
         examination.startExamination();
     }
 
-    private Availability isExamAvailability(){
-        return (examination.status())?Availability.available():Availability
+    private Availability isExamAvailability() {
+        return (examination.status()) ? Availability.available() : Availability
                 .unavailable(localMessageService
                         .getLocalMessage("message.exam.unavailable"));
     }

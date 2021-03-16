@@ -4,6 +4,6 @@ public interface Examination {
     void startExamination();
 
     void getAssessment(float rating);
-    
+
     boolean status();
 }
