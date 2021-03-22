@@ -14,6 +14,7 @@
 	<name>questionnaire</name>
 	<description>questionnaire</description>
 	<properties>
+		<spring.shell.version>2.0.1.RELEASE</spring.shell.version>
 		<java.version>11</java.version>
 	</properties>
 	<dependencies>
@@ -26,6 +27,12 @@
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-test</artifactId>
 			<scope>test</scope>
+		</dependency>
+
+		<dependency>
+			<groupId>org.springframework.shell</groupId>
+			<artifactId>spring-shell-starter</artifactId>
+			<version>${spring.shell.version}</version>
 		</dependency>
 
 		<dependency>

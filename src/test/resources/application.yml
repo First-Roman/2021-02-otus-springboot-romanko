@@ -1,0 +1,10 @@
+spring:
+  shell:
+    interactive:
+      enabled: false
+questionnaire:
+  file:
+    name: quest.csv
+  exam:
+    qualityGate: 0.5
+  local: Rus
